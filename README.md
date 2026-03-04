@@ -31,5 +31,25 @@ This lab demonstrates practical experience with virtualization, firewall managem
 
 ---
 
-##  Repository Structure
+## Repository Structure
+
+pfsense-virtual-lab/
+│
+├── README.md
+│   → Project overview, objectives, configuration steps, and lessons learned
+│
+├── screenshots/
+│   ├── 01-pfsense-installation.png
+│   ├── 02-virtualbox-network-adapter-setup.png
+│   ├── 03-lan-interface-dhcp-configuration.png
+│   ├── 04-ipv4-range-configuration.png
+│   ├── 05-lan-ip-subnet-configuration.png
+│   ├── 06-ubuntu-access-to-pfsense.png
+│   ├── 07-hostname-domain-configuration.png
+│   ├── 08-ntp-timezone-configuration.png
+│   └── 09-final-configuration-summary.png
+│
+└── troubleshooting/
+    ├── bootloader-install-loop-fix.md
+    └── nat-adapter-connection-issue.md
 
